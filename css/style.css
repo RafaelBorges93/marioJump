@@ -20,8 +20,7 @@
   
 }
 
-.game-board {
-  
+.game-board {  
   width: 100%;
   height: 500px;
   border-bottom: 15px solid green;
@@ -29,7 +28,7 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(#87ceeb, #e0f6ff);
-}
+ }
 
 .pipe {
   position: absolute;
@@ -55,6 +54,19 @@
   width: 550px;
   animation: clouds-animation 16s infinite linear;
 
+}
+
+.button-restart {
+  width: 120px;
+  height: 30px;
+  background: rgb(115, 199, 115);
+  position: relative;
+  top: 450px;
+  font-family: 'SuperMario256';
+  left: 45%;
+  letter-spacing: 2px;
+  color: red;
+  font-size: 14px;
 }
 
 @keyframes pipe-animation {
